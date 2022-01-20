@@ -1,0 +1,164 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 15pt;
+  margin: 0px 0px;
+  padding: 0;
+  border: 35px solid #234e70;
+  background-color: #fffdcd;
+  border-width: 0px 100px 0px;
+}
+
+.name {
+  font-size: 50pt;
+  margin-top: 30px;
+}
+
+
+#description {
+  font-size: 15pt;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+main {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15pt;
+  flex-direction: auto;
+  max-width: 650px;
+}
+
+ul>li {
+  list-style: none;
+  align-items: center;
+  display: inline-block;
+  vertical-align: auto;
+  margin: 0 25px;
+  padding: 0;
+  height: 0px;
+  display: inline-block;
+}
+
+img {
+  border: solid #234e70;
+  width: 95%;
+}
+
+#picture {
+  float: left;
+  width: 250px;
+  margin-right: 24px;
+  margin-bottom: 25px;
+  margin-top: 6px;
+  border: solid #234e70;
+}
+
+#cf {
+  position: relative;
+  height: 280px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  float: left;
+}
+
+#cf img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity: 0;
+}
+
+.introduction #summary #summary2 {
+  font-size: 15pt;
+  max-width: 650px;
+  display: block;
+  margin-top: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  align-self: auto;
+}
+
+.sample table {
+  float: center;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.macd img {
+  float: center;
+  width: 100%;
+}
+
+.rsi img {
+  float: center;
+  width: 100%;
+}
+
+.balance img {
+  float: center;
+}
+
+
+.macdTitle .rsiTitle .balanceTitle .executionTitle {
+  margin-top: 45px;
+}
+
+
+.endingSummary p {
+  display: block;
+  margin-top: 15px;
+  max-width: 650px;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: #234e70;
+}
+
+.reviewList {
+  text-align: left;
+  display: block
+}
+
+.reviewList li {
+  list-style-type: square;
+}
+
+.sampleSummary p .macdSummary p .rsiSummary p {
+  max-width: 650px;
+  display: block;
+}
+
+h2 {
+  border-bottom-style: solid;
+  border-bottom-color: #234e70;
+  width: 650px;
+}
+
+.takeaway p {
+  border-bottom-style: solid;
+  border-bottom-color: #234e70;
+}
+
+.introduction {
+  border-bottom-style: solid;
+  border-bottom-color: #234e70;
+}
+
+.resources li {
+  list-style-type: square;
+  text-align: left;
+}
